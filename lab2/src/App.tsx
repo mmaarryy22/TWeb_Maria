@@ -1,25 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { LayoutCustom } from './Layouts/LayoutCustom'
+import { Forms } from './Form/Forms';
+import { FooterNow } from './Layouts/FooterFor';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Mavrova <code>Maria-Nicoleta</code> CR-191
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <>
+        <LayoutCustom></LayoutCustom>
+          <FooterNow></FooterNow>
+      </>
   );
 }
 
