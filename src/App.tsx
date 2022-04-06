@@ -33,6 +33,12 @@ const masiniList = [
     photo:"https://previews.123rf.com/images/artzzz/artzzz1806/artzzz180600070/104800627-moscow-russia-march-2-2018-dark-red-supercar-mercedes-benz-amg-gt-in-the-city-street-.jpg"
 
   },
+  {color:"Black",
+    model:"maybach",
+    nrDoors:4,
+    country:"USA",
+    year:2015,
+    photo:"https://www.major-auto.ru/images/models/mercedes/maybach%202022/29450/29450_medium.jpg"},
 
 
 
