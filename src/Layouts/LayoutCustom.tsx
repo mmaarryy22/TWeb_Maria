@@ -31,11 +31,7 @@ const Informations = [
         title: "Numar de telefon",
         description: "0022115544"
     },
-    {
-        id: 6,
-        title: "Numar de telefon",
-        description: "0022115544"
-    },
+
 
 
 ]
