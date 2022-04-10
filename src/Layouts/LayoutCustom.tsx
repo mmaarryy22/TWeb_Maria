@@ -61,7 +61,8 @@ export const LayoutCustom = () =>{
                     <div className="site-layout-content">
                         {   Informations.map((el, index) =>{
                             return(
-                                <ContentLayout key={el.id} title={el.title} description={el.description} />
+                              //  <ContentLayout key={el.id} title={el.title} description={el.description} />
+                              <ContentLayout key={el.id}  />
                             )
                         })
                         }
