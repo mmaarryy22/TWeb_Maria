@@ -4,35 +4,51 @@ const storeProvider = RootStore.create({
     contents: [
         {
             id: '1',
-            title: 'Title',
-            description: 'Some more text',
+            title: 'Marca',
+            description: 'Introduce-ti textul',
             seen: false,
-            notes: '',
+            notes: 'First',
         },
         {
             id: '2',
-            title: 'Title 2',
-            description: 'Some more text',
+            title: 'Model',
+            description: 'Introduce-ti textul',
             seen: false,
             notes: '',
 
         },
         {
             id: '3',
-            title: 'Title 3',
-            description: 'Some more text',
+            title: 'Culoare',
+            description: 'Introduce-ti textul',
             seen: false,
             notes: '',
 
         },
         {
             id: '4',
-            title: 'Title 4',
-            description: 'Some more text',
+            title: 'Tara producerii',
+            description: 'Introduce-ti textul',
             seen: true,
-            notes: 'First',
+            notes: '',
 
-        }
+        },
+        {
+            id: '5',
+            title: 'Numarul de usi',
+            description: 'Introduce-ti textul',
+            seen: false,
+            notes: '',
+
+        },
+        {
+            id: '6',
+            title: 'Tipul cutiei de viteze',
+            description: 'Introduce-ti textul',
+            seen: false,
+            notes: '',
+
+        },
     ]
 })
 
