@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d4fc16-bcd0-4a54-92db-0ac51114d438" name="Changes" comment="editare">
+      <change afterPath="$PROJECT_DIR$/src/Form/Login/Forms/Login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/Login/LoginModel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/Login/LoginProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/Login/LoginStore.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/HeaderLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/HeaderLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interface/ex.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/ex.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mst/stores/StoreProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/mst/stores/StoreProvider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layouts/ContentLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/ContentLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/interfaces.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
