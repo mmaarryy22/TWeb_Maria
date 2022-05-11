@@ -2,37 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d4fc16-bcd0-4a54-92db-0ac51114d438" name="Changes" comment="editare">
-      <change beforePath="$PROJECT_DIR$/.idea/TWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TWeb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mobx/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mobx/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.cjs.development.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.cjs.development.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.cjs.production.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.cjs.production.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.esm.development.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.esm.development.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.esm.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.esm.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.esm.production.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.esm.production.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.umd.development.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.umd.development.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.umd.production.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mobx/dist/mobx.umd.production.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mobx/dist/types/observableset.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mobx/dist/types/observableset.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mobx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mobx/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mobx/src/types/observableset.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mobx/src/types/observableset.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/Forms.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Forms.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/FormsStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/FormsStyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Login/Forms/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Login/Forms/Login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Login/LoginModel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Login/LoginModel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Login/LoginProvider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Login/LoginProvider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Login/LoginStore.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Login/LoginStore.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/Notes/Note.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/Notes/Note.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/CardCustom.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/CardCustom.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/Login/Forms/Login.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/Login/LoginModel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/Login/LoginProvider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/Login/LoginStore.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/Notes/Note.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layouts/CardCustom.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layouts/Card_box.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/Card_box.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layouts/ContentLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/ContentLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/ContentLayoutC.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/ContentLayoutC.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layouts/FooterFor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/FooterFor.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layouts/HeaderLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/HeaderLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/LayoutC.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/LayoutC.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/LayoutCustom.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/LayoutCustom.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/custom.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/custom.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interface/ex.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/ex.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interface/extentedInterface.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/extentedInterface.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interface/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/interfaces.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interface/mainInterface.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/interface/mainInterface.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layouts/LayoutCustom.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/ex.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/extentedInterface.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/interfaces.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interface/mainInterface.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mst/models/Content.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/mst/models/Content.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mst/stores/RootStore.store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/mst/stores/RootStore.store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mst/stores/RootStore.store.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mst/stores/StoreProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/mst/stores/StoreProvider.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

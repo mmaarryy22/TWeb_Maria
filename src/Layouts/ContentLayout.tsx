@@ -2,10 +2,10 @@ import { Breadcrumb, Layout, List, Row } from 'antd'
 import { Content } from 'antd/lib/layout/layout'
 import { observer } from 'mobx-react-lite'
 import { useEffect } from 'react'
-import {Note } from '../Form/Notes/Note'
-import { Login } from '../Form/Login/Forms/Login'
+import  { Note } from '../components/CustomForm/Notes/Note'
+import { Login } from '../components/Login/Form/Login'
 import { useRootStore } from '../index'
-import { IContentModel } from '../interface/interfaces'
+import { IContentModel } from '../interfaces/interfaces'
 import { CardCustom } from './CardCustom'
 
 const { Footer } = Layout
@@ -21,14 +21,36 @@ export const ContentLayout = observer(() => {
     return (
         <>
             <Content style={ { padding: '0 50px' } }>
-                {}
+                <Breadcrumb style={ { margin: '16px 0' } }>
+                    <Breadcrumb.Item>Home</Breadcrumb.Item>
+                    <Breadcrumb.Item>List</Breadcrumb.Item>
+                    <Breadcrumb.Item>App</Breadcrumb.Item>
+                </Breadcrumb>
+                <div className='site-layout-content'>
+                    <Row gutter={ 16 }>
+                        { contents.map((content: IContentModel) => {
 
-                <div className="style-layout-content">
-                    <br />
-                    <Login />
+                            return (
+                                <CardCustom key={ content.id } content={ content } />
+                            )
+                        }) }
+                    </Row>
+
+                </div>
+
+                <div>
+                    { contents_notes.map((content: IContentModel) => {
+                        return (
+                            <List.Item>
+                                <Note key={ content.id } content={ content } />
+                            </List.Item>
+                        )
+                    })
+                    }
+
                 </div>
             </Content>
-            <Footer style={ { textAlign: 'center' } }>UTM ©2022 Created by Maarryy</Footer>
+            <Footer style={ { textAlign: 'center' } }>UTM ©2022 Maarryy</Footer>
         </>
 
     )

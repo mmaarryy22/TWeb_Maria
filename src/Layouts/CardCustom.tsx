@@ -2,7 +2,7 @@ import { Button, Checkbox, Input } from 'antd'
 import Card from 'antd/lib/card'
 import { observer } from 'mobx-react-lite'
 import { useEffect } from 'react'
-import { IContentModel } from '../interface/interfaces'
+import { IContentModel } from '../interfaces/interfaces'
 
 
 export const CardCustom = observer(({ content }: { content: IContentModel }) => {
