@@ -1,17 +1,31 @@
+
 import { Layout, Menu } from 'antd'
+import { Routes, Route, Link } from "react-router-dom";
+import { Login } from '../components/Login/Form/Login';
+import { ContentLayout } from './ContentLayout';
 
 const { Header } = Layout
 
 export const HeaderLayout = () => {
     return (
-        <Header>
-            <div className='logo' />
-            <Menu theme='dark' mode='horizontal' defaultSelectedKeys={ [ '2' ] }>
-                { new Array(5).fill(null).map((_, index) => {
-                    const key = index + 1
-                    return <Menu.Item key={ key }>{ `Bara nr ${ key }` }</Menu.Item>
-                }) }
-            </Menu>
-        </Header>
+        <>
+            <Header>
+                <div className='logo' />
+                <Menu theme='dark' mode='horizontal' >
+                    <Menu.Item key={1}>
+                        <Link to="/">Inregistrare</Link>
+                    </Menu.Item>
+                    <Menu.Item key={1}>
+                        <Link to="/content">Contents</Link>
+                    </Menu.Item>
+
+                </Menu>
+            </Header>
+
+            <Routes>
+                <Route path='/' element={<Login />} />
+                <Route path='/content' element={<ContentLayout />} />
+            </Routes>
+        </>
     )
 }

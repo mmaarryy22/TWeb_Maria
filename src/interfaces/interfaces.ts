@@ -1,6 +1,6 @@
 import { Instance } from 'mobx-state-tree'
-import { LoginModel } from '../Form/Login/LoginModel'
-import { LoginStore } from '../Form/Login/LoginStore'
+import { LoginModel } from '../components/Login/LoginModel'
+import { LoginStore } from '../components/Login/LoginStore'
 import { ContentModel } from '../mst/models/Content.model'
 import RootStore from '../mst/stores/RootStore.store'
 

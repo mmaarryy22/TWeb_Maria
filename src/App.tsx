@@ -15,7 +15,7 @@ function App() {
     useEffect(() => {
         rootStore.setInitialStorageContents()
     }, [])
-
+    
     useEffect(() => {
         loginStore.setInitialStorageContents()
     }, [])
@@ -24,7 +24,6 @@ function App() {
         <>
             <Layout className='layout'>
                 <HeaderLayout />
-                <ContentLayout />
             </Layout>
         </>
     )

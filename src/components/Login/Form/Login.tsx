@@ -8,7 +8,7 @@ export const Login = () =>{
 
     const cautaUtilizator = () => {
 
-        const localI = localStorage.getItem("Inregistrare");
+        const localI = localStorage.getItem("inregistrare");
         let flag = false;
 
         if(localI){
@@ -30,6 +30,8 @@ export const Login = () =>{
     return(
         <>
 
+            <br />
+
             <Form
                 name="basic"
                 labelCol={{ span: 8 }}
@@ -42,7 +44,7 @@ export const Login = () =>{
                     name="login"
                     rules={[{ required: true, message: 'Please input your username!' }]}
                 >
-                    <Input
+                    <Input 
                         value = { utilizator }
                         onChange={ (e) => {setUtilizator(e.target.value);}}
                     />
@@ -53,7 +55,7 @@ export const Login = () =>{
                     name="parola"
                     rules={[{ required: true, message: 'Please input your password!' }]}
                 >
-                    <Input.Password
+                    <Input.Password 
                         value = { parola }
                         onChange = { (e) => {setParola(e.target.value);}}
                     />

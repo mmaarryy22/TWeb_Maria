@@ -1,5 +1,5 @@
 import { applySnapshot, types } from 'mobx-state-tree'
-import { ILoginModel } from '../../interface/interfaces'
+import { ILoginModel } from '../../interfaces/interfaces'
 import { LoginModel } from './LoginModel'
 
 export const LoginStore = types.model('LoginStore', {
@@ -10,7 +10,7 @@ export const LoginStore = types.model('LoginStore', {
 })
     .actions((self) => ({
         setDataToLocalStorage(value: any = {}) {
-            localStorage.setItem('Inregistrare', JSON.stringify(value))
+            localStorage.setItem('inregistrare', JSON.stringify(value))
         },
     }))
 

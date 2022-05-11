@@ -6,3 +6,4 @@ export const LoginModel = types.model('LoginModel', {
     login: '',
     parola: '',
 })
+    
